@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tailwind</title>
+</head>
+
+<body class="min-h-screen">
+    <!-- ---------NAVBAR--------- -->
+    <nav class="grid md:grid-cols-12  h-16">
+        <div class=" bg-primary md:col-span-10">
+            <div class="container mx-auto ">
+                <div>
+                    <a href=""> <img class="w-14" src="./img/contentr.io logo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary md:col-span-2 z-10">
+            <div class="container mx-auto">
+                <a href="#">
+                    <h2 class=" text-center py-2 md:py-0 md:mt-3 font-bold md:text-2xl text-white">
+                        Unpublish</h2>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!-- ---------NAVBAR--------- -->
+
+    <!-- ------------------HERO SECTION----------------- -->
+    <header class="header">
+
+        <div class="grid lg:grid-cols-2  flex-row">
+            <!-- --------LEFT AREA--------- -->
+            <div class=" left-area">
+                <div class="hero-items">
+                    <div class="grid justify-items-center mt-20">
+                        <h2 class="bg-secondary p-4 py-5 text-5xl font-bold rounded-xl text-white">SK.</h2>
+                        <a href="#">
+                            <ion-icon class="text-4xl bg-primary rounded-xl opacity-70" name="camera-outline">
+                            </ion-icon>
+                        </a>
+
+                        <h2 class="font-bold text-1xl mt-5">Hi👋 I'm</h2>
+                        <h1 class="text-3xl font-bold">SuccKing</h1>
+                        <div class="w-2/3 text-center mt-5">
+                            <p>"I help companies build innovative software <br> and technical content to power technical
+                                content
+                                marketing."</p>
+
+                        </div>
+                        <div class="flex mt-4">
+                            <a class="text-2xl " href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                            <a class="text-2xl ml-3" href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                            <a class="text-1xl ml-3" href="#">edit</a>
+                        </div>
+
+                    </div>
+
+                    <section class="mt-10 bg-primary rounded-t-3xl">
+
+                        <div class="container mx-auto md:px-4 py-5">
+                            <div class="rounded-lg border-dotted border-2 border-borderGrey  mx-5 mt-3">
+                                <div class="mx-5 mt-8 mb-5">
+                                    <h3 class="text-2xl font-bold text-textMuted">Welcome 🎉</h3>
+                                    <ul class="list-disc ml-2">
+                                        <li class="text-textMuted mt-2 font-medium">We added some explanatory
+                                            placeholder in each
+                                            field</li>
+                                        <li class="text-textMuted mt-2 font-medium">Add, edit your social medial
+                                            details. 20+ icons.
+                                        </li>
+                                        <li class="text-textMuted mt-2 font-medium">Upload your best preferred picture
+                                            to get you
+                                            started.</li>
+                                        <li class="text-textMuted mt-2 font-medium">Save, edit, publish every of your
+                                            details.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rounded-xl border-dotted border-2 border-borderGrey mb-10 mx-5 mt-10">
+                                <div class="mx-3 mt-8 mb-5 bg-white py-2 rounded-xl">
+
+                                    <div class="border-b">
+                                        <h4 class="ml-3 mb-1 font-medium">Job title (Current)</h4>
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="border-b mt-8">
+                                            <p class="text-textMuted text-1md mb-2">software Engineer</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="mx-3 mt-8 mb-5 bg-white py-2 rounded-xl">
+
+                                    <div class="border-b">
+                                        <h4 class="ml-3 mb-1 font-medium">TagName</h4>
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="border-b mt-8">
+                                            <p class="text-textMuted text-1md mb-2">Kapersky</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="mx-3 mt-8 mb-5 bg-white py-2 rounded-xl">
+
+                                    <div class="border-b">
+                                        <h4 class="ml-3 mb-1 font-medium">About Yourself/Tag</h4>
+                                    </div>
+                                    <div>
+                                        <textarea class="w-5/6 mx-auto" type="text" name="" id="" cols="30" rows="5"
+                                            placeholder="I design and build beautiful mobile and desktop experience for fun."></textarea>
+                                    </div>
+                                </div>
+                                <div class="bg-secondary mx-3 mt-8 mb-10 text-center py-2  rounded-xl text-white ">
+                                    <button class="font-bold">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <footer class="bg-darkGreen h-16">
+                    <div class="container mx-auto">
+                        <div class="grid grid-cols-5 text-center">
+                            <div class="hover:bg-footerHover transition duration-0 hover:duration-300 ">
+                                <a href="index.html">
+                                    <ion-icon class="text-3xl text-white mb-5 mt-5" name="home-outline"></ion-icon>
+                                </a>
+                            </div>
+                            <div class="hover:bg-footerHover transition duration-0 hover:duration-300 ">
+                                <a href="project.html">
+                                    <ion-icon class="text-3xl text-white mb-5 mt-5" name="construct-outline">
+                                    </ion-icon>
+                                </a>
+                            </div>
+                            <div class="hover:bg-footerHover transition duration-0 hover:duration-300 ">
+                                <a href="custom.html">
+                                    <ion-icon class="text-3xl text-white mb-5 mt-5" class="text-3xl text-white mt-5"
+                                        name="add-outline">
+                                    </ion-icon>
+                                </a>
+                            </div>
+                            <div class="hover:bg-footerHover transition duration-0 hover:duration-300 ">
+                                <a href="Resume.html">
+                                    <ion-icon class="text-3xl text-white mb-5 mt-5" class="text-3xl text-white mt-5"
+                                        name="briefcase-outline">
+                                    </ion-icon>
+                                </a>
+                            </div>
+                            <div class="hover:bg-footerHover transition duration-0 hover:duration-300 ">
+                                <a href="Settings.html">
+                                    <ion-icon class="text-3xl text-white mb-5 mt-5" name="settings-outline">
+                                    </ion-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+            <!-- --------LEFT AREA--------- -->
+            <!-- --------RIGHT AREA------------ -->
+            <div class="bg-yellow-500 right-side">
+
+            </div>
+            <!-- --------RIGHT AREA------------ -->
+
+        </div>
+    </header>
+
+    <!-- ------------------HERO SECTION----------------- -->
+    <!-- -----------Footer--------------- -->
+
+    <!-- -----------Footer--------------- -->
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

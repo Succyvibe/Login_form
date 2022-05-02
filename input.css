@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    height: calc(100vh - 64px);
+}
+
+.left-area {
+    height: calc(100vh - 64px);
+}
+
+.hero-items {
+    height: calc(100vh - 128px);
+    overflow-y: auto;
+}
+
+.right-side {
+    height: calc(100vh - 64px);
+}
+
+textarea {
+    outline: none;
+    resize: none;
+
+
+}
+
+.muted-btn {
+    max-width: 30%;
+    background-color: brown;
+}
